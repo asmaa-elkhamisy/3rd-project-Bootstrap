@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pato</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="icon" type="image/jpg" href="images/patoo.jpg"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--------------------------  start header ----------------------->
+    <header>
+        <nav class="navbar navbar-expand-md  fixed-top">
+            <div class="container-fluid" >
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="logo" style="width:80px; height: 40px;">
+                </a>
+                <a class="navbar-brand good text-light" href="#" style="border-right:1px solid #ccc; padding-right: 10px; font-weight: bold;">Good</a>
+                <i class="fas fa-bars navbar-toggler text-light" data-toggle="collapse" data-target="#collapsibleNavbar"></i>
+                <div class="collapse navbar-collapse justify-content-between text-uppercase" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">callery</a>
+                        </li> 
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">menu</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">starters</a>
+                                <a class="dropdown-item" href="#">main</a>
+                                <hr class="dropdown-divider">
+                                <a class="dropdown-item" href="#">drinks</a>
+                                <a class="dropdown-item" href="#">dessert</a>
+                                <a class="dropdown-item" href="#">specials</a>
+                                <a class="dropdown-item" href="#">sides</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">contact</a>
+                        </li> 
+                    </ul>
+                    <form class="form-inline" action="/action_page.php">
+                        <input class="form-control" type="text" placeholder="Search">
+                        <button class="btn btn-info ml-lg-2 ml-sm-0" type="submit">Search</button>
+                        <button class="btn btn-info ml-lg-2" type="submit">login</button>
+                    </form>
+                </div>  
+            </div>
+        </nav><!------------ / navbar -------------->
+    </header>
+    <!---------------------- end header -------------------->
+    <!---------------------- start first section  ---------->
+    <section>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2" ></li>
+                <li data-target="#demo" data-slide-to="3"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/master-slides-01.jpg" alt="pato restaurant" width="100%" height="600">
+                    <div class="carousel-caption">
+                        <h3 class="text-capitalize" >pato restaurant</h3>
+                        <button class="btn bg-info mt-4">get started</button>
+                    </div>   
+                </div>
+                <div class="carousel-item">
+                    <img src="images/master-slides-02.jpg" alt="pato restaurant" width="100%" height="600">
+                    <div class="carousel-caption">
+                        <h3 class="text-capitalize" >pato restaurant</h3>
+                        <button class="btn bg-info mt-4">get started</button>
+                    </div>   
+                </div>
+                <div class="carousel-item">
+                    <img src="images/master-slides-03.jpg" alt="pato restaurant" width="100%" height="600">
+                    <div class="carousel-caption">
+                        <h3 class="text-capitalize" >pato restaurant</h3>
+                        <button class="btn bg-info mt-4">get started</button>
+                    </div>   
+                </div>
+                <div class="carousel-item">
+                    <img src="images/master-slides-08.jpg" alt="pato restaurant" width="100%" height="600">
+                    <div class="carousel-caption">
+                        <h3 class="text-capitalize" >pato restaurant</h3>
+                        <button class="btn bg-info mt-4">get started</button>
+                    </div>   
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </section>
+    <!----------------- end first section ------------------->
+    <!----------------- start second section ---------------->
+    <section>
+        <div class="container-fluid sec-sec  p-5">
+            <h3 class="text-info ">Welcome</h3>
+            <span class="text-secondary ">Italian Restaurant in our city</span><br>
+            <button class="btn bg-info mt-3 text-capitalize" data-toggle="tooltip" title="copy">learn more</button><br>
+        </div>
+        <div class="container-fluid p-2 bg-light">
+            <hr>
+        </div>
+    </section>
+    <!------------------ end second section ------------------>
+    <!------------------ start 3rd section ------------------->
+    <section>
+        <h2 class="text-center text-info  p-3 m-0 text-capitalize">pato restaurant</h2>
+        <div id="accordion">
+            <div class="card card-acc">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn romantic-btn btn-link collapsed text-uppercase text-info text-decoration-none" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            romantic restaurant
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        <a href="#">
+                            <div class="card-body-img cbi col-sm-12 col-md-12 col-lg-3"></div>
+                        </a>
+                        <p class="mt-sm-2 text-secondary">Phasellus lorem enim, luctus ut velit eget, con-vallis egestas eros.</p>
+                        <button class="btn bg-info  text-capitalize">learn more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                    <button class="btn romantic-btn btn-link collapsed text-uppercase text-info text-decoration-none" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        delicious food
+                    </button>
+                </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        <a href="#">
+                            <div class="card-body-img-1 cbi col-sm-12 col-md-12 col-lg-3"></div>
+                        </a>
+                        <p class="mt-sm-2 text-secondary">Aliquam eget aliquam magna, quis posuere risus ac justo ipsum nibh urna</p>
+                        <button class="btn bg-info  text-capitalize">learn more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                    <button class="btn romantic-btn btn-link collapsed text-uppercase text-info text-decoration-none" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        red wines you love
+                    </button>
+                </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                    <div>
+                        <a href="#">
+                            <div class="card-body-img-2 cbi col-sm-12 col-md-12 col-lg-3"></div>
+                        </a>
+                        <p class="mt-sm-2 text-secondary">Sed ornare ligula eget tortor tempor, quis porta tellus dictum.</p>
+                        <button class="btn bg-info  text-capitalize">learn more</button>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!------------------- end 3rd section ----------------->
+    <!------------------- start 4th section --------------->
+    <section>
+        <h2 class="text-center text-info  p-3 m-0 text-capitalize">customer says</h2>
+        <div class="container-fluid bg-secondary col-lg-12 col-sm-12 p-4">
+            <img src="images/avatar-01.jpg" class="rounded-circle customer" alt="cusoemer" width="70px" height="70px">
+            <p class="text-light">
+                We are lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </p>
+            <button class="btn bg-info text-capitalize" data-toggle="tooltip" title="press here">happy hour</button><br>
+            <div class="say-icon text-info mt-3">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        <div class="container-fluid p-2 bg-light">
+            <hr>
+        </div>
+        <h2 class="text-center text-info  p-3 m-0 text-capitalize">customer says</h2>
+        <div class="container-fluid bg-secondary col-lg-12 col-sm-12 p-4">
+            <img src="images/avatar-04.jpg" class="rounded-circle customer-1" alt="customer" width="70px" height="70px">
+            <p class=" text-light">
+                We are lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </p>
+            <button class="btn bg-info text-capitalize" data-toggle="tooltip" data-placement="bottom" title="press here">happy hour</button><br>
+            <div class="say-icon text-info mt-3">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        <div class="container-fluid p-2 bg-light">
+            <hr>
+        </div>
+        <h2 class="text-center text-info  p-3 m-0 text-capitalize">customer says</h2>
+        <div class="container-fluid bg-secondary col-lg-12 col-sm-12 p-4">
+            <img src="images/avatar-05.jpg" class="rounded-circle customer-2" alt="customer" width="70px" height="70px">
+            <p class=" text-light">
+                We are lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </p>
+            <button class="btn bg-info text-capitalize" data-toggle="tooltip" data-placement="right" title="press here">happy hour</button><br>
+            <div class="say-icon text-info mt-3">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        <div class="container-fluid p-2 bg-light">
+            <hr>
+        </div>
+    </section>
+    <!--------------- end 4th section ------------------>
+    <!-------------- start fixed div ------------------->
+    <div class="container-fluid fix-img"></div>
+    <!--------------- end fixed div -------------------->
+    <!--------------- start 5th section /////// menu --->
+    <section>
+        <h2 class="text-center text-info  p-3 m-0 text-uppercase">discover our menu</h2>
+        <div class="container-fluid pt-5 bg-dark text-center d-flex flex-wrap justify-content-around align-items-center">
+            <div class="card ca mb-5" style="width:350px">
+                <img class="card-img-top" src="images/our-menu-02.jpg" alt="food" style="width:100%; height: 350px;">
+                <div class="card-body">
+                <h4 class="card-title text-capitalize text-light">steak</h4>
+                <p class="card-text text-info">We hope you like it</p>
+                <a href="#" class="btn btn-info">see more</a>
+                </div>
+            </div>
+            <div class="card ca mb-5" style="width:350px">
+                <img class="card-img-top" src="images/our-menu-04.jpg" alt="food" style="width:100%; height: 350px;">
+                <div class="card-body">
+                <h4 class="card-title text-capitalize text-light">chicken</h4>
+                <p class="card-text text-info">We hope you like it</p>
+                <a href="#" class="btn btn-info">see more</a>
+                </div>
+            </div>
+            <div class="card ca mb-5" style="width:350px">
+                <img class="card-img-top" src="images/our-story-01.jpg" alt="food" style="width:100%; height: 350px;">
+                <div class="card-body">
+                <h4 class="card-title text-capitalize text-light">special dishes</h4>
+                <p class="card-text text-info">We hope you like it</p>
+                <a href="#" class="btn btn-info">see more</a>
+                </div>
+            </div>
+            <div class="card ca mb-5" style="width:350px">
+                <img class="card-img-top" src="images/photo-gallery-02.jpg" alt="food" style="width:100%; height: 350px;">
+                <div class="card-body">
+                <h4 class="card-title text-capitalize text-light">sides</h4>
+                <p class="card-text text-info">We hope you like it</p>
+                <a href="#" class="btn btn-info">see more</a>
+                </div>
+            </div>
+            <div class="card ca mb-5" style="width:350px">
+                <img class="card-img-top" src="images/photo-gallery-03.jpg" alt="food" style="width:100%; height: 350px;">
+                <div class="card-body">
+                <h4 class="card-title text-capitalize text-light">steak</h4>
+                <p class="card-text text-info">We hope you like it</p>
+                <a href="#" class="btn btn-info">see more</a>
+                </div>
+            </div>
+            <div class="card ca mb-5" style="width:350px">
+                <img class="card-img-top" src="images/photo-gallery-04.jpg" alt="food" style="width:100%; height: 350px;">
+                <div class="card-body">
+                <h4 class="card-title text-capitalize text-light">special dishes</h4>
+                <p class="card-text text-info">We hope you like it</p>
+                <a href="#" class="btn btn-info">see more</a>
+                </div>
+            </div>
+            <div class="card ca mb-5" style="width:350px">
+                <img class="card-img-top" src="images/photo-gallery-10.jpg" alt="food" style="width:100%; height: 350px;">
+                <div class="card-body">
+                <h4 class="card-title text-capitalize text-light">dessert</h4>
+                <p class="card-text text-info">We hope you like it</p>
+                <a href="#" class="btn btn-info">see more</a>
+                </div>
+            </div>
+            <div class="card ca mb-5" style="width:350px">
+                <img class="card-img-top" src="images/lunch-06.jpg" alt="drink" style="width:100%; height: 350px;">
+                <div class="card-body">
+                <h4 class="card-title text-capitalize text-light">drinks</h4>
+                <p class="card-text text-info">We hope you like it</p>
+                <a href="#" class="btn btn-info">see more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------------------- start fixed div --------------------->
+    <!--------------------- end 5th section /////menu ----------->
+    <div class="container-fluid fixed-img"></div>
+    <div class="container-fluid p-2 bg-light">
+        <hr>
+    </div>
+    <!--------------------- end fixed div ----------------------->
+    <!--------------------- start 6th section ------------------->
+    <section>
+        <div class="container-fluid pt-5 bg-dark">
+            <h2 class="text-center text-light  pb-5 m-0 text-uppercase">thanks for</h2>
+            <div class=" container text-center d-flex flex-wrap justify-content-around align-items-center">
+                <div class="card ca mb-4" style="width:280px">
+                    <img class="card-img-top" src="images/cartoon-character.jpg" alt="Card image" style="width:100%; height: 280px;">
+                    <div class="card-body">
+                        <h5 class="card-title text-light text-capitalize">director / asoma</h5>
+                    </div>
+                </div>
+                <div class="card ca mb-4" style="width:280px">
+                    <img class="card-img-top" src="images/photo_2023-02-10_17-02-36.jpg" alt="Asmaa Elkhamisy" style="width:100%; height: 280px;">
+                    <div class="card-body">
+                        <h5 class="card-title text-light text-capitalize">eng / asmaa elkhamisy</h5>
+                    </div>
+                </div>
+                <div class="card ca mb-4" style="width:280px">
+                    <img class="card-img-top" src="images/avatar-05.jpg" alt="chef" style="width:100%">
+                    <div class="card-body">
+                        <h5 class="card-title text-light text-capitalize">chef / peter</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid p-1 bg-dark">
+            <hr>
+        </div>
+    </section>
+    <!--------------------- end 6th section --------------------->
+    <!--------------------- start 7th section ------------------->
+    <section>
+        <div class="container-fluid pb-2 bg-dark">
+            <h2 class="text-center text-light  pb-5 m-0 pt-3 text-uppercase">the blog</h2>
+            <div class="container text-center text-light d-flex flex-wrap justify-content-around ">
+                <div class="card ca card-animation mb-4 p-4" style="width: 260px;">
+                    <span class="animation-span">   
+                    </span>
+                    <h5 class="card-title text-capitalize">location</h5>
+                    <a href="#"><i class="fas fa-map-marker-alt p-2 card-li"></i></a>
+                    <span class="ani">8th floor , new york</span>
+                </div>
+                <div class="card ca card-animation mb-4 p-4" style="width: 260px;">
+                    <span class="animation-span">   
+                    </span>
+                    <h5 class="card-title text-capitalize">call us</h5>
+                    <a href="#"><i class="fas fa-phone-alt p-2 card-li"></i></a>
+                    <span class="ani">(+1) 000 000 000</span>
+                </div>
+                <div class="card ca card-animation mb-4 p-4" style="width: 260px;">
+                    <span class="animation-span">   
+                    </span>
+                    <h5 class="card-title text-capitalize">opining hours</h5>
+                    <a href="#"><i class="fas fa-clock p-2 card-li"></i></a>
+                    <span class="ani">09:30 AM everyday</span>  
+                </div>
+                <div class="card ca card-animation mb-4 p-4" style="width: 260px;" > 
+                    <span class="animation-span">   
+                    </span>               
+                    <h5 class="card-title text-capitalize">follow us</h5>
+                    <a href="#"><i class="fab fa-instagram p-2 card-li"></i></a>
+                    <a class="text-capitalize card-a ani" href="#">go to link</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------------------- end 7th section --------------------->
+    <!--------------------- start footer ------------------------>
+    <footer class="foot pt-5 ">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-4 foot-1 text-center mb-5">
+                    <img src="images/logo.png" alt="pato">
+                    <p class="pt-4 text-light">Nunc ac lectus <br> ullamcorper ultrices felis quis.</p>
+                    <a href="#"><i class="fab fa-facebook-f p-2 text-info"></i></a>
+                    <a href="#"><i class="fab fa-twitter p-2 text-info"></i></a>
+                    <a href="#"><i class="fab fa-instagram p-2 text-info"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp p-2 text-info"></i></a>                   
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4 foot-link text-center mb-5">
+                    <h3 class="text-info text-capitalize">important</h3>
+                    <a class="text-light" href="#">home</a>
+                    <a class="text-light" href="#">about</a>
+                    <a class="text-light" href="#">menu</a>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4 text-center mb-5 ">
+                    <h3 class="text-info text-capitalize">contact us</h3>
+                    <div class="pt-3 text-light">
+                        <i class="far fa-envelope mr-3"></i>
+                        <span>info&example.com</span>
+                    </div>
+                    <div class="pt-3 text-light">
+                        <i class="fas fa-phone-alt mr-4"></i>
+                        <span>(+1) 000 000 000</span>
+                    </div>
+                    <div class="pt-3 text-light">
+                        <i class="fas fa-map-marker-alt mr-3"></i>
+                        <span>8th floor , new york</span>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <hr style="background-color: rgb(70, 70, 70);">
+        <span class="text-center d-block text-light pb-3">Copyright &copy; 2023 Asmaa Adel Elkhamisy , Good Restaurant. All rights</span>       
+    </footer>
+    <!--------------------- end footer -------------------------->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();   
+        });
+    </script>
+</body>
+</html>

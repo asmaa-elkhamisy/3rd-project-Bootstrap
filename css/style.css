@@ -1,0 +1,153 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+} 
+
+/*------------------------------------------------------*/
+/******** start header*********/
+.navbar{
+    background-color: rgba(108, 117, 125 , 0.7) !important;
+}
+.nav-link{
+    color: aliceblue !important;
+}
+.nav-link:hover{
+    color: rgb(83, 189, 208) !important;
+}
+.good:hover{
+    text-shadow: 7px 7px 20px white , -7px -7px 20px white;
+}
+/********** end header *********/
+.carousel-inner .carousel-caption{
+    background: rgba(200, 200, 200, 0.3);
+    border-radius: 7px;
+    height: 180px;
+}
+.sec-sec{
+    background: url(../images/pattern1.png);
+}
+.container-fluid h1 , .container-fluid span{
+    font-family: 'Montserrat', sans-serif;
+}
+/*******************************/
+/************** start 3rd section***************/
+.cbi{
+    height: 180px;
+    border-radius: 10px;
+}
+.card-body-img{
+    background: url(../images/intro-01.jpg) no-repeat center;
+    background-size: 100%;
+    transition: 1s;
+}
+.card-body-img-1{
+    background: url(../images/intro-02.jpg) no-repeat center;
+    background-size: 100%;
+    transition: 1s;
+}
+.card-body-img-2{
+    background: url(../images/intro-04.jpg) no-repeat center;
+    background-size: 100%;
+    transition: 1s;
+}
+.cbi:hover{
+    background-size: 120%;
+}
+.romantic-btn:hover{
+    text-decoration: none !important;
+    color: #87e5da !important;
+}
+.card-cc:hover{
+    background-color: blue !important;
+}
+/************** end 3rd section***************/
+/************** fixed image****************/
+.fix-img{
+    background: url(../images/bg-intro-01.jpg) fixed;
+    height: 280px;
+    background-size: cover;
+}
+.fixed-img{
+    background: url(../images/bg-intro-05.jpg) fixed;
+    height: 280px;
+    background-size: cover;
+}
+/**************** customer say******************/
+/* .customer{
+    animation: sd linear 1.5s;
+}
+@keyframes sd{
+    0%{transform: scale(0);}
+    100%{transform: scale(1);}
+} */
+/***********************************/
+.ca{
+    background-color: rgb(27, 26, 26) !important;
+    border: none !important;
+}
+.card-animation{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-animation h5,a,.ani{
+    z-index: 5;
+}
+.card-animation::before{
+    content: "";
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 8px;
+    background-image: conic-gradient(transparent,transparent,transparent,#00ccff);
+    animation: animate 3s linear infinite ;
+}
+.card-animation::after{
+    content: "";
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 8px;
+    background-image: conic-gradient(transparent,transparent,transparent,#c5f8f4);
+    animation: animate 3s linear infinite ;
+    animation-delay: -1.5s;
+}
+.card-animation .animation-span{
+    position: absolute;
+    inset: 3px;
+    background-color: rgb(27, 26, 26);
+    z-index: 1;
+}
+@keyframes animate{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+
+.card-a:hover , .foot a:hover{
+    text-decoration: none !important;
+    color: #cff2ee !important;
+}
+.card-li , .card-a , .foot i:hover{
+    color: #87e5da !important;
+}
+.card-li{
+    font-size: 20px;
+}
+/***************** footer ****************/
+.foot{
+    background-color: rgb(27, 26, 26);
+}
+.foot-link a{
+    display: block;
+    text-transform: capitalize;
+    padding: 10px;
+}
+.foot-1 i{
+    font-size: 30px;
+}
